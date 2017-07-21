@@ -63,8 +63,6 @@ def date_validation(date_str, customer_id, key):
 # Function definition for printing in tabular format
 def display_output(top_X_LTV_customers, global_dictionary):
     x = len(top_X_LTV_customers)
-    print("####################################################################################")
-    print("#################### Top ", x, " Customer with Highest Simple LTV ######################")
     rank = 0
     for pair in top_X_LTV_customers:
         rank += 1
@@ -72,5 +70,3 @@ def display_output(top_X_LTV_customers, global_dictionary):
         life_time_value = format(pair[1], '.2f')
         last_name = global_dictionary[customer_id]['CUSTOMER'][0].last_name
         print(rank, '    ', customer_id, '    ', last_name,  '    ', '$'+life_time_value)
-
-    print("####################################################################################")
