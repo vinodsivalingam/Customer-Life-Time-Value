@@ -1,1 +1,10 @@
-Your output data will end up here
+1    96f55a7d8f47    Anirudh    6123.68 
+2    96f55a7d8f51    Ragha    2413.34 
+3    96f55c7d8f45    Jenna    1197.02 
+4    96f55c7d8f44    Emma    654.68
+5    96f55a7d8f46    Harry    648.02  
+6    96f55a7d8f52    Mithi    611.7   
+7    96f55a7d8f50    Sathi    413.34  
+8    96f55a7d8f48    Prash    73.34 
+9    96f55a7d8f49    Bagha    43.34 
+10    96f55c7d8f42    Smith    29.68 
